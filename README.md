@@ -54,7 +54,7 @@ uv run test_setup.py
 
 ## What Gets Populated
 
-### Genetic Data (Successfully Added ✅)
+### Genetic Data 
 - **~4,000 genes** across 3 model organisms
 - **~5,500 transcripts** with multiple variants per gene
 - **~4,000 proteins** with full sequences
@@ -83,12 +83,35 @@ uv run test_setup.py
 
 Final database size: ~2-3 GB (under 10GB limit)
 
-## Files
-
-- `create_biocat_db.sql` - Database schema
-- `populate_ensembl_data_v2.py` - Main population script
-- `requirements.txt` - Python dependencies
-- `run_biocat_setup.bat` - Windows batch script for setup
+## File structure
+biocat/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── sql/
+│   ├── create_biocat_db.sql
+│   ├── functions.sql
+│   ├── procedures.sql
+│   ├── triggers.sql
+│   └── sample_data.sql
+├── src/
+│   ├── app.py
+│   ├── database.py
+│   ├── sql_queries.py
+│   ├── dna_visualization.py
+│   ├── launch.py
+│   └── config_example.py
+├── docs/
+│   ├── DBMS_Project_Report.md
+│   ├── ER-diagram.pdf
+│   ├── Relational-Schema.pdf
+│   ├── INTERFACE_README.md
+│   ├── CUSTOM_FUNCTIONS.md
+│   └── screenshots/
+├── tests/
+│   └── test_custom_functions.py
+└── data/
+    └── sample_queries.txt
 
 ## Libraries Used
 
