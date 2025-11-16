@@ -13,8 +13,7 @@
 - **Section:** G
 
 **Institution:** PES University  
-**Course:** Database Management Systems (DBMS)  
-**Academic Year:** 2023-24
+**Course:** Database Management Systems (DBMS)
 
 ---
 
@@ -1934,10 +1933,7 @@ The complete SQL file `biocat_complete_queries.sql` includes:
 ---
 
 ## 12. GitHub Repository
-
-**TODO: Create GitHub repository and paste the URL below**
-
-**Repository URL:** `https://github.com/<your-username>/biocat-dbms`
+**Repository URL:** https://github.com/PrakyathPNayak/biocat
 
 ### Repository Structure:
 ```
@@ -1970,61 +1966,6 @@ biocat-dbms/
 └── data/
     └── sample_queries.txt
 ```
-
-### Setup Instructions (for README.md):
-```markdown
-# Biocat Database Management System
-
-## Quick Setup
-
-1. Clone the repository
-git clone <repository-url>
-cd biocat-dbms
-
-2. Install dependencies
-pip install -r requirements.txt
-
-3. Create database
-mysql -u root -p < sql/create_biocat_db.sql
-
-4. Add custom functions
-mysql -u root -p biocat < sql/functions.sql
-
-5. Launch interface
-python src/launch.py
-```
-
-### Git Commands to Create Repository:
-```bash
-# Initialize repository
-cd /home/prakyathpnayak/Downloads/DBMS
-git init
-
-# Add files
-git add .
-
-# Create .gitignore
-echo "__pycache__/
-*.pyc
-.venv/
-*.log
-config.py
-.python-version
-uv.lock" > .gitignore
-
-# Initial commit
-git commit -m "Initial commit: Biocat DBMS project"
-
-# TODO: Create a new repository on GitHub (https://github.com/new)
-# Then run the following commands with your actual repository URL:
-
-# Add remote (replace with your actual repository URL)
-git remote add origin https://github.com/<your-username>/biocat-dbms.git
-git branch -M main
-git push -u origin main
-```
-
-**TODO: After pushing to GitHub, verify the repository is accessible and paste the final URL in section 12 above**
 
 ---
 
