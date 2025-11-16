@@ -84,34 +84,34 @@ uv run test_setup.py
 Final database size: ~2-3 GB (under 10GB limit)
 
 ## File structure
-biocat/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── sql/
-│   ├── create_biocat_db.sql
-│   ├── functions.sql
-│   ├── procedures.sql
-│   ├── triggers.sql
-│   └── sample_data.sql
-├── src/
-│   ├── app.py
-│   ├── database.py
-│   ├── sql_queries.py
-│   ├── dna_visualization.py
-│   ├── launch.py
-│   └── config_example.py
-├── docs/
-│   ├── DBMS_Project_Report.md
-│   ├── ER-diagram.pdf
-│   ├── Relational-Schema.pdf
-│   ├── INTERFACE_README.md
-│   ├── CUSTOM_FUNCTIONS.md
-│   └── screenshots/
-├── tests/
-│   └── test_custom_functions.py
-└── data/
-    └── sample_queries.txt
+biocat/\
+├── README.md\
+├── requirements.txt\
+├── .gitignore\
+├── sql/\
+│   ├── create_biocat_db.sql\
+│   ├── functions.sql\
+│   ├── procedures.sql\
+│   ├── triggers.sql\
+│   └── sample_data.sql\
+├── src/\
+│   ├── app.py\
+│   ├── database.py\
+│   ├── sql_queries.py\
+│   ├── dna_visualization.py\
+│   ├── launch.py\
+│   └── config_example.py\
+├── docs/\
+│   ├── DBMS_Project_Report.md\
+│   ├── ER-diagram.pdf\
+│   ├── Relational-Schema.pdf\
+│   ├── INTERFACE_README.md\
+│   ├── CUSTOM_FUNCTIONS.md\
+│   └── screenshots/\
+├── tests/\
+│   └── test_custom_functions.py\
+└── data/\
+    └── sample_queries.txt\
 
 ## Libraries Used
 
